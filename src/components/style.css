@@ -1,0 +1,141 @@
+.text-shadow-1 {
+  text-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+  text-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+.text-shadow-3 {
+  text-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.25);
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon-box {
+  padding: 45px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  /* transition: all 0.3s ease-in-out; */
+  border-radius: 8px;
+  z-index: 1;
+}
+
+#header .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+#header .logo a {
+  color: #16507b;
+  text-decoration: none;
+}
+
+#header .logo img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 28px;
+  }
+}
+
+.navbar {
+  padding: 10;
+}
+
+.navbar ul {
+  margin: 10;
+  padding: 10;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 14px;
+  color: #16507b;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: #2487ce;
+}
+
+.navbar .login,
+.navbar .login:focus {
+  background: #0092fa;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .login:hover,
+.navbar .login:focus:hover {
+  color: #fff;
+  background: #3194db;
+}
+
+.navbar-mobile .login,
+.navbar-mobile .login:focus {
+  margin: 15px;
+}
+
+.navbar .listElements,
+.navbar .listElements:focus {
+  background: #2487ce;
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .listElements:hover,
+.navbar .listElements:focus:hover {
+  color: #fff;
+  background: #3194db;
+}
+
+.navbar-mobile .listElements,
+.navbar-mobile .listElements:focus {
+  margin: 1px;
+}
